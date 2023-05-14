@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Triple-Guess</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+	integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+	crossorigin="anonymous" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onclick="close()">
+	<!-- <button onclick="refresh()">Refresh Game</button> -->
+	<h1>Guess the Number</h1>
+	<div class="container">
+		<p>Guess a 3-digit number:</p>
+		<input type="text" id="guess">
+		<button onclick="guessNumber()">Guess</button>	<button onclick="show()">Show Score</button>	
+		<p id="result"></p>
+	
+		<div id="show" class="show">
+		<p onclick="undo()">Score: <span id="score">0</span></p></div>
+	</div><hr>
+	<div id="terms-and-conditions">
+		<h2>Terms and Conditions</h2>
+		<ol>
+		  <li>By using our website, you agree to our <a href="#">Privacy Policy</a>.</li>
+		  <li>You must be 18 years or older to use our services.</li>
+		  <li>If you guess the number correctly, you earn a point.</li>
+		  <li>The game will keep track of your score and display it at the end of each round.</li>
+		  <li>If you guess the wrong number, you will lose one point from your score</li>
+		  <li onclick="know()">Know the Number </li>
+		  <li onclick="refresh()">Refresh The Game</li>
+		</ol>
+		<div class="social">
+			<a href="https://twitter.com/example"><i class="fab fa-twitter"></i></a>
+			<a href="https://www.facebook.com/example"><i class="fab fa-facebook"></i></a>
+			<a href="https://www.instagram.com/example"><i class="fab fa-instagram"></i></a>
+			<a href="https://www.linkedin.com/in/example"><i class="fab fa-linkedin"></i></a>
+			<a href="https://www.youtube.com/example"><i class="fab fa-youtube"></i></a>
+		  </div>
+		  
+	  </div>
+	<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+h1 {
+	text-align: center;
+	font-size: 36px;
+	margin-top: 50px;
+}
+
+
+  /* Style for the terms and conditions div */
+  #terms-and-conditions {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	color: #333333;
+	padding: 20px;
+	margin: 20px;
+	background-color: #f6f6f6;
+	border: 1px solid #cccccc;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .social{
+	
+	
+	padding: 20px;
+	margin: 20px;
+	background-color: #f6f6f6;
+	/* border: 1px solid #cccccc; */
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .social a{
+	margin-left: 50px;
+	padding-left: 160px;
+	font-size: 30px;
+  }
+
+  /* Style for the heading */
+  #terms-and-conditions h2 {
+	text-align: center;
+	font-size: 18px;
+	margin-bottom: 10px;
+  }
+
+  /* Style for the list items */
+  #terms-and-conditions li {
+	margin-bottom: 10px;
+	margin-left: 200px;
+  }
+
+  /* Style for the links */
+  #terms-and-conditions a {
+	color: #0066cc;
+	text-decoration: none;
+  }
+
+  /* Style for the link on hover */
+  #terms-and-conditions a:hover {
+	text-decoration: underline;
+  }
+
+
+
+
+.container {
+	width: 400px;
+	margin: auto;
+	margin-top: 50px;
+	text-align: center;
+}
+
+p {
+	font-size: 24px;
+}
+
+input {
+	width: 300px;
+	padding: 10px;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+button {
+	padding: 10px 20px;
+	font-size: 24px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #3e8e41;
+}
+
+#result {
+	font-weight: bold;
+}
+
+#score {
+	font-weight: bold;
+	color: #4CAF50;
+	
+}
+.show{
+visibility:hidden;
+border: 2px solid red;}
+
